@@ -1,6 +1,6 @@
-#Vinos_Argentina - Proyecto de venta de vinos online
+# Vinos_Argentina - Proyecto de venta de vinos online
 
-##Introducción
+## Introducción
 
 Este proyecto consiste en una aplicación web que permite a los usuarios comprar vinos online de forma fácil y segura. El objetivo es ofrecer una amplia variedad de vinos de calidad, procedentes de diferentes variedades y bodegas, a precios competitivos y con envío a domicilio.
 
@@ -111,21 +111,25 @@ Los pasos para instalar y ejecutar el proyecto son los siguientes:
 
 Aquí se muestran algunas capturas de pantalla o vídeos que ilustran el funcionamiento del proyecto y sus principales funcionalidades:
 
-- Página principal: muestra el catálogo de vinos con información detallada sobre cada producto.
+- Página principal: muestra el catálogo de vinos general.
 
-![Página principal]
+![screencapture-localhost-4200-2023-10-01-17_36_27](https://github.com/FaMatias/Vinos_Argentina/assets/88169799/07513c5b-a55a-49ed-8eb3-fe837a0242b2)
+
 
 - Página de carrito: muestra los vinos que el usuario ha añadido al carrito y permite modificar o eliminar la cantidad. Página de pago: permite al usuario introducir sus datos de pago y confirmar su compra
 
-![Página de carrito y Página de pago]
+![screencapture-localhost-4200-dashboard-carrito-2023-10-01-17_36_05](https://github.com/FaMatias/Vinos_Argentina/assets/88169799/2d1d9689-e5c1-440e-aeb9-1cb01e711045)
+
 
 - Página de pedidos: muestra el historial de pedidos del usuario y el estado de cada uno.
 
-![Página de pedidos]
+![screencapture-localhost-4200-dashboard-compras-2023-10-01-17_37_28](https://github.com/FaMatias/Vinos_Argentina/assets/88169799/d9d5f849-74ee-47c5-8e6d-d8b6f5343443)
 
-- Página de inicio de sesión: permite al usuario acceder a su cuenta con su correo electrónico y su contraseña.
 
-![Página de inicio de sesión]
+- Página de lista de productos: muestra el catálogo de vinos con información detallada sobre cada producto.
+
+![screencapture-localhost-4200-productos-2023-10-01-17_36_53](https://github.com/FaMatias/Vinos_Argentina/assets/88169799/c9c11ebb-4d44-4c6b-9426-f885587566ea)
+
 
 ## Créditos y agradecimientos
 
