@@ -1,0 +1,38 @@
+
+@import '~primeng/resources/primeng.min.css';
+
+.izquierdo {
+
+align-items: center;
+color-scheme:linear-gradient(90deg, rgb(128, 0, 0) 0%, rgb(255,69,0)100%);
+
+}
+
+
+
+p-button:disabled {
+    background-color:  rgb(255,69,0);
+    background:  rgb(255,69,0) !important;
+    border:#016492
+}
+
+
+button {
+    background-color: #00A539;
+    border:#016492
+}
+
+button:hover {
+    background-color: #019285;
+    cursor: pointer;
+    border:#016492
+}
+
+
+.col-12 {
+    background-color: rgb(128, 0, 0) !important;
+    border:#016492
+}
+
+
+

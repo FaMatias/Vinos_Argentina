@@ -1,0 +1,111 @@
+<div class="container">
+
+    <div class="d-flex justify-content-center align-items-center mt-5"><a class="botoncategorias" routerLink="productos"> <button pButton type="button" label="Productos & Servicios" ></button></a>
+    </div>
+    <br><br>
+    <div class="row">
+        <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+            <div class="icon-box">
+               <div class="icon mb-3"><i class="bi bi-alarm"></i></div>
+               <h4>Variedad</h4>
+               <p>En cuestión de segundos te aseguramos una selección de vinos sin demoras, elegimos las mejores etiquetas para que disfrutes de tus favoritos en el menor tiempo posible.</p>
+            </div>
+         </div>
+
+         <div class="col-lg-3 col-md-6 mt-4 mt-md-0 d-flex align-items-stretch">
+            <div class="icon-box">
+               <div class="icon mb-3"><i class="bi bi-geo-alt"></i></div>
+               <h4>Calidad</h4>
+               <p>Contamos con una amplia variedad de vinos donde podrás explorar diferentes regiones y estilos. Además, te ofrecemos información detallada sobre cada vino, incluyendo su origen, añada y notas de cata.</p>
+            </div>
+         </div>
+
+         <div class="col-lg-3 col-md-6 mt-4 mt-lg-0 d-flex align-items-stretch">
+            <div class="icon-box">
+               <div class="icon mb-3"><i class="bi bi-journal-check"></i></div>
+               <h4>Comodidad</h4>
+               <p>Solamente con un click, tenés la posibilidad de conseguir los mejores vinos. <strong>Podrás disfrutar de una experiencia única y descubrir nuevos sabores.</strong></p>
+            </div>
+         </div>
+
+         <div class="col-lg-3 col-md-6 mt-4 mt-lg-0 d-flex align-items-stretch">
+            <div class="icon-box">
+               <div class="icon mb-3"><i class="bi bi-code-square"></i></div>
+               <h4>Suscripciones mensuales</h4>
+               <p>Al registrarte, podrás acceder a nuestra exclusiva selección de vinos y comprarlos con descuentos exclusivos. Ademas recibirá un catalogo de selección de vinos por e-mail.</p>
+            </div>
+         </div>
+      </div>
+      <br><br>
+    <div class="d-flex justify-content-center mt-3"> <span class="text text-center">¡HOLA! Somos VINOS ARGENTINA ★★★<br><strong>Con nuestro servicio, te facilitamos la compra de los mejores vinos, ya que trabajamos con las mejores bodegas de Argentina. Esperamos que disfrutes de nuestra selección y no dudes en contactarnos si necesitas ayuda o tienes alguna pregunta.</strong></span>
+    </div>
+    <div class="col align-items-center" >
+        <app-buscador  (onEnter)="buscar($event)"></app-buscador>
+  </div>
+    <div class="row mt-2 g-4 containerProductos">
+        <div class="col-md-3">
+            <div class="card p-1 cardsProductos">
+                <div class="d-flex justify-content-between align-items-center p-2" routerLink="productos/Celulares">
+                    <div class="flex-column lh-1 imagename" > <span>Vinos tintos </span> </div>
+                    <div> <img src="https://images.pexels.com/photos/5238390/pexels-photo-5238390.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" height="100" width="100" /> </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card p-2 cardsProductos">
+                <div class="d-flex justify-content-between align-items-center p-2" routerLink="productos/Auriculares">
+                    <div class="flex-column lh-1 imagename"> <span>Vinos blancos</span> </div>
+                    <div> <img src="https://images.pexels.com/photos/5466741/pexels-photo-5466741.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" height="100" width="100" /> </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card p-2 cardsProductos">
+                <div class="d-flex justify-content-between align-items-center p-2" routerLink="productos/Relojes Inteligentes">
+                    <div class="flex-column lh-1 imagename"> <span>Vinos rosados</span> </div>
+                    <div> <img src="https://images.pexels.com/photos/3019019/pexels-photo-3019019.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" height="100" width="100" /> </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card p-2 cardsProductos">
+                <div class="d-flex justify-content-between align-items-center p-2" routerLink="productos/Climatizadores">
+                    <div class="flex-column lh-1 imagename"> <span>Espumantes</span> </div>
+                    <div> <img src="https://images.pexels.com/photos/121191/pexels-photo-121191.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" height="100" width="100" /> </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card p-2 cardsProductos">
+                <div class="d-flex justify-content-between align-items-center p-2" routerLink="productos/Aspiradoras">
+                    <div class="flex-column lh-1 imagename"> <span>Cajas de vinos variados</span> </div>
+                    <div> <img src="https://images.pexels.com/photos/7282899/pexels-photo-7282899.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" height="100" width="100" /> </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+             <div class="card p-2 cardsProductos">
+                <div class="d-flex justify-content-between align-items-center p-2" routerLink="productos/Lavarropas">
+                    <div class="flex-column lh-1 imagename"> <span>Accesorios para vinos</span> </div>
+                    <div> <img src="https://images.pexels.com/photos/16295526/pexels-photo-16295526/free-photo-of-alcohol-barra-fiesta-beber.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" height="100" width="100" /> </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card p-2 cardsProductos">
+                <div class="d-flex justify-content-between align-items-center p-2" routerLink="productos/Televisores">
+                    <div class="flex-column lh-1 imagename"> <span>Maridajes</span> </div>
+                    <div> <img src="https://images.pexels.com/photos/8743948/pexels-photo-8743948.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" height="100" width="100" /> </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card p-2 cardsProductos">
+                <div class="d-flex justify-content-between align-items-center p-2" routerLink="productos/Computadoras">
+                    <div class="flex-column lh-1 imagename"> <span>Ofertas especiales</span> </div>
+                    <div> <img src="https://images.pexels.com/photos/2909085/pexels-photo-2909085.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" height="100" width="100" /> </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

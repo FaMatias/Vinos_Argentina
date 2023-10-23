@@ -1,0 +1,5 @@
+*.ext filter=lfs diff=lfs merge=lfs -text
+*.jar filter=lfs diff=lfs merge=lfs -text
+*.pack filter=lfs diff=lfs merge=lfs -text
+Vinos[[:space:]]Argentina[[:space:]]Front/.angular/cache/14.2.6/angular-webpack/58cf52201d6772046cf6e5ca1fb8c842f9ad4935/8.pack filter=lfs diff=lfs merge=lfs -text
+Vinos[[:space:]]Argentina[[:space:]]Front/.angular/cache/14.2.6/angular-webpack/fca68e3d444ce8b84a2a468a68a1b8f158f24a62/11.pack filter=lfs diff=lfs merge=lfs -text

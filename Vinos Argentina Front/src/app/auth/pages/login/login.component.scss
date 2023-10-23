@@ -1,0 +1,17 @@
+button {
+    background-color: #8B0000;
+    border: #800000;
+    color: white; /* Cambio de color de texto a blanco */
+}
+
+button:hover {
+    background-color: rgb(255,69,0);
+    cursor: pointer;
+    border:#016492
+}
+
+.mainbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
